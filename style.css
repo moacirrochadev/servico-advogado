@@ -11,8 +11,12 @@
 }
 
 .secao-largura-limitada {
-        width: 800px;
-        margin: 0 auto;
+        width: 100vw;
+        color: #FFD700;
+        padding-left: 16px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        /* color: linear-gradient(90deg,rgba(212, 134, 32, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); */
 }
 
 h1, h2, h3 {
@@ -20,7 +24,6 @@ h1, h2, h3 {
 }
 
 .secao-topo p {
-        padding: 20px;
         font-size: 22px;
         font-weight: bold;
 }
